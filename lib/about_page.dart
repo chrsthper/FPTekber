@@ -5,7 +5,10 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('About Lovetify', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
+        title: Text(
+          'About Lovetify',
+          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+        ),
       ),
       body: Center(
         child: Padding(
@@ -26,16 +29,17 @@ class AboutPage extends StatelessWidget {
               SizedBox(height: 20),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFF1DB954), // Spotify green
+                  backgroundColor: Color(0xFF1DB954),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                 ),
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                child: Text('Back to Home', style: TextStyle(color: Colors.white, fontSize: 16)),
+                onPressed: () => Navigator.pop(context),
+                child: Text(
+                  'Back to Home',
+                  style: TextStyle(color: Colors.white, fontSize: 16),
+                ),
               ),
             ],
           ),
