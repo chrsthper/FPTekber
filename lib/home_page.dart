@@ -17,9 +17,27 @@ class _HomePageState extends State<HomePage> {
       "lyrics": """
 Blackbird singing in the dead of night
 Take these broken wings and learn to fly
+All your life
+You were only waiting for this moment to arise
+Blackbird singing in the dead of night
+Take these sunken eyes and learn to see
+All your life
+You were only waiting for this moment to be free
+Blackbird, fly
+Blackbird, fly
+Into the light of the dark black night
+Blackbird, fly
+Blackbird, fly
+Into the light of the dark black night
+Blackbird singing in the dead of night
+Take these broken wings and learn to fly
+All your life
+You were only waiting for this moment to arise
+You were only waiting for this moment to arise
+You were only waiting for this moment to arise
 """,
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a1/Beatles_blackbird.jpg",
-      "meaning": "Inspired by the civil rights movement in America."
+      "imageUrl": "https://i1.sndcdn.com/artworks-CH0jViC9yUFky8SG-Pzmh5g-t500x500.jpg",
+      "meaning": "Blackbird is a song by the English rock band the Beatles from their 1968 double album The Beatles (also known as the White Album). It was written by Paul McCartney and credited to Lennon–McCartney, and performed as a solo piece by McCartney. When discussing the song, McCartney has said that the lyrics were inspired by hearing the call of a blackbird in Rishikesh, India, and by the civil rights movement in the Southern United States."
     },
     {
       "title": "Blinding Lights",
